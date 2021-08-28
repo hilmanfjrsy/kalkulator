@@ -15,12 +15,11 @@ body{
     box-sizing: border-box;
     border: 0px ;
     font-size: 20px;
-    padding: 15px 10px;
+    padding: 5px 10px 15px 10px;
     border-radius: 0px 0px 5px 5px;
     text-align: right;
     color: #131313;
     background-color: #f4f4f4;
-    margin-bottom: 10px;
 }
 #screenHistory{
     width: 100%;
@@ -30,8 +29,13 @@ body{
     padding: 15px 10px 5px 10px;
     border-radius: 5px 5px 0px 0px;
     text-align: right;
-    color: grey;
+    color: darkgray;
     background-color: #f4f4f4;
+}
+.screen-container{
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
 }
 .container-btn {
     display: flex;

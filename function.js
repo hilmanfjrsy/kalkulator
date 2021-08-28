@@ -23,6 +23,7 @@ btn.addEventListener("click", function (e) {
     } else if (valueBtn == "=") {
         if (valueBef != '+' && valueBef != '/' && valueBef != '-' && valueBef != '*' && valueBef != '.') {
             let repVal = screen.value.replace(regComma, '')
+            let screenVal = screen.value
             let val = eval(repVal).toString().replace(regThousand, ",")
             val = val.split('.')
             if (val.length > 1) {
@@ -31,7 +32,7 @@ btn.addEventListener("click", function (e) {
                 val[1] = val[1].replace(regComma, '')
             }
             screen.value = val.join('.')
-            screenHistory.value = repVal + '=' + screen.value
+            screenHistory.value = screenVal + '=' + screen.value
         }
     } else if (valueBtn == '+' || valueBtn == '/' || valueBtn == '-' || valueBtn == '*') {
         dotStatus = true
