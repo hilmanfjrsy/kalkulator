@@ -1,0 +1,76 @@
+body{
+    background-color: #fafafa;
+    font-family: sans-serif;
+}
+.container{
+    width: 295px;
+    box-shadow: 0px 0px 10px #d4d4d4;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    margin: 50px auto 0px auto;
+}
+#screen{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px ;
+    font-size: 20px;
+    padding: 15px 10px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: right;
+    color: #131313;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+}
+#screenHistory{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px ;
+    font-size: 15px;
+    padding: 15px 10px 5px 10px;
+    border-radius: 5px 5px 0px 0px;
+    text-align: right;
+    color: grey;
+    background-color: #f4f4f4;
+}
+.container-btn {
+    display: flex;
+    flex-direction: row;
+}
+.btn {
+    color: #131313;
+    display: flex;
+    width: 25%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    background-color:#FAA61320;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.equal:hover{
+    background-color:#ffb432;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nol{
+    width: 100%;
+}
+span.operator{
+    color:#FAA613
+}
+.equal{
+    background-color: #FAA613;
+    border-radius: 5px;
+    height: 145px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
